@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QSRatingView" customModule="QSRatingView" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="BAr-IA-jlp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="263"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hoW-N8-PN5">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="263"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="star1" translatesAutoresizingMaskIntoConstraints="NO" id="ZoG-IP-Cjj">
+                            <rect key="frame" x="0.0" y="0.0" width="78.5" height="263"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="star1" translatesAutoresizingMaskIntoConstraints="NO" id="UMY-dS-JBh">
+                            <rect key="frame" x="78.5" y="0.0" width="78.5" height="263"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="star1" translatesAutoresizingMaskIntoConstraints="NO" id="6dh-ox-IU9">
+                            <rect key="frame" x="157" y="0.0" width="79" height="263"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="star1" translatesAutoresizingMaskIntoConstraints="NO" id="iVx-dl-Prf">
+                            <rect key="frame" x="236" y="0.0" width="78.5" height="263"/>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="star1" translatesAutoresizingMaskIntoConstraints="NO" id="k2X-bj-a28">
+                            <rect key="frame" x="314.5" y="0.0" width="78.5" height="263"/>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="k2X-bj-a28" firstAttribute="width" secondItem="ZoG-IP-Cjj" secondAttribute="width" id="Afr-V6-PX3"/>
+                        <constraint firstAttribute="bottom" secondItem="ZoG-IP-Cjj" secondAttribute="bottom" id="Dle-iP-Yng"/>
+                        <constraint firstItem="6dh-ox-IU9" firstAttribute="width" secondItem="ZoG-IP-Cjj" secondAttribute="width" id="F7E-9z-LxS"/>
+                        <constraint firstItem="ZoG-IP-Cjj" firstAttribute="leading" secondItem="hoW-N8-PN5" secondAttribute="leading" id="ILR-BV-zrO"/>
+                        <constraint firstItem="UMY-dS-JBh" firstAttribute="height" secondItem="ZoG-IP-Cjj" secondAttribute="height" id="JIc-b1-d29"/>
+                        <constraint firstItem="ZoG-IP-Cjj" firstAttribute="top" secondItem="hoW-N8-PN5" secondAttribute="top" id="MbA-Sy-7fM"/>
+                        <constraint firstItem="iVx-dl-Prf" firstAttribute="height" secondItem="ZoG-IP-Cjj" secondAttribute="height" id="NiF-88-n1N"/>
+                        <constraint firstItem="6dh-ox-IU9" firstAttribute="height" secondItem="ZoG-IP-Cjj" secondAttribute="height" id="STU-uP-4W8"/>
+                        <constraint firstItem="UMY-dS-JBh" firstAttribute="width" secondItem="ZoG-IP-Cjj" secondAttribute="width" id="jR2-nH-HYA"/>
+                        <constraint firstItem="iVx-dl-Prf" firstAttribute="width" secondItem="ZoG-IP-Cjj" secondAttribute="width" id="lgv-6U-0PG"/>
+                        <constraint firstItem="k2X-bj-a28" firstAttribute="height" secondItem="ZoG-IP-Cjj" secondAttribute="height" id="zf7-FN-8qG"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="hoW-N8-PN5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="344-29-BI2"/>
+                <constraint firstItem="hoW-N8-PN5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Dhm-NP-j9V"/>
+                <constraint firstAttribute="bottom" secondItem="hoW-N8-PN5" secondAttribute="bottom" id="Ndq-w4-Oje"/>
+                <constraint firstAttribute="trailing" secondItem="hoW-N8-PN5" secondAttribute="trailing" id="jKr-oN-lgY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-18.115942028985508" y="-189.84375"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="star1" width="64" height="64"/>
+    </resources>
+</document>
