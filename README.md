@@ -2,6 +2,8 @@
 最简单5星评价
 Nib、StoreBoard和代码调用斗很简单很好用
 一行代码实现了
+
+```
 import UIKit
 
 class ViewController: UIViewController {
@@ -14,3 +16,4 @@ class ViewController: UIViewController {
         QSV.isVariable = false //默认问true
     }
 }
+```
